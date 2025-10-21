@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tonalitá — Built for Curious Plates</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Tonalitá</h1>
+    <p class="tagline">Built for Curious Plates</p>
+  </header>
+
+  <section id="about">
+    <p>
+      Welcome to <strong>Tonalitá Café</strong> — a cozy space where creativity meets comfort.  
+      Discover bold flavours, comforting classics, and signature drinks crafted in timeless black & white style.
+    </p>
+    <button id="viewMenuBtn">View Menu</button>
+  </section>
+
+  <section id="menuCategories" class="hidden">
+    <h2>Our Menu</h2>
+    <div class="categories">
+      <button class="category" data-category="brunch">Brunch</button>
+      <button class="category" data-category="burgers">Burgers</button>
+      <button class="category" data-category="wraps">Wraps</button>
+      <button class="category" data-category="fries">Loaded Fries</button>
+      <button class="category" data-category="sides">Sides</button>
+      <button class="category" data-category="drinks">Drinks</button>
+      <button class="category" data-category="coffee">Coffee</button>
+      <button class="category" data-category="special">Special Drinks</button>
+      <button class="category" data-category="shakes">Shakes</button>
+      <button class="category" data-category="desserts">Desserts</button>
+      <button class="category" data-category="waffles">Waffles</button>
+      <button class="category" data-category="pancakes">Pancakes</button>
+      <button class="category" data-category="crepe">Crepe</button>
+    </div>
+  </section>
+
+  <section id="menuItems" class="hidden">
+    <button id="backBtn">← Back to Categories</button>
+    <h2 id="menuTitle"></h2>
+    <div id="itemsContainer"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tonalitá Café — Built for Curious Plates</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
